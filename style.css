@@ -129,10 +129,12 @@ a {
 }
 
 .contact {
-    padding-top: 200px;
+    display: flex;
+    align-items: center;
     background-image: url("./Rectangle2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 .container_contact{
@@ -230,7 +232,7 @@ input::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .8);
     display: none;
 }
 
@@ -264,4 +266,70 @@ input::placeholder {
     .hamburger {
         display: block;
     }
+}
+
+@media screen and (max-width:455px) {
+    .banner_title {
+        font-size: 35px;
+    }
+
+    .info {
+        display: block;
+    }
+
+    .photo_row {
+        display: block;
+    }
+
+    .gallery_icon {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .icon {
+        margin-top: 20px;
+    }
+
+    input {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .form_item {
+        flex-direction: column;
+    }
+
+    .form_label {
+        width: 100%;
+    }
+
+    .form_text {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+
+.footer {
+    background-color: #2D343C;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 200%;
+}
+
+.e-mail {
+    color:  #D4C17F;
+}
+
+.social {
+    display: flex;
+    width: 150px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    margin-top: 10px;
 }
