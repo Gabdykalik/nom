@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link href="./hamburger.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div class="banner" id="main">
@@ -14,96 +15,48 @@
             <div class="header">
                 <div class="container container_header">
                     <div class="logo">
-                        <div class="logo_upper">
-                            Adlet
-                        </div>
-                            
-                        <div class="logo_downer">
-                            krasavchik
+                        <div class="logo_photo">
+                            <img class="logo_img" src="./logo.png">
                         </div>
                     </div>
 
                     <div class="nav">
                         <a class="nav_item" href="#main"><div >Главное</div></a>
+                        <a class="nav_item" href=""><div>О нас</div></a>
+                        <a class="nav_item" href="#zad"><div>Пакеты услуг</div></a>
                         <a class="nav_item" href=""><div>Контакты</div></a>
-                        <a class="nav_item" href="#zad"><div>Зад</div></a>
-                        <a class="nav_item" href=""><div>Жопа</div></a>
-                        <a class="nav_item" href=""><div>НеГлавное</div></a>
                     </div>
                 </div>
             </div>
-            <div class="banner_title">Адлет вас <br>приветствует!</div>
+            <div class="banner_title">NOM <br>agency</div>
+            <div class="contact">
+                <div class="container container_contact">
+                    <form action="https://formspree.io/xaypkgrn" method="POST" class="form">
+                        <div class="form_item">
+                            <label class="form_label" for="">
+                                <input type="text" placeholder="Ваше имя" name="name" required>
+                            </label>
+                            <label class="form_label" for="">
+                                <input type="tel" placeholder="Ваш телефон"  name="tel" required>
+                            </label>
+                            <button class="btn"  type="submit" value="Send">
+                                Отправить
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        
         </div>
     </div>
 
-    <div class="maincontent" id="zad">
-        <div class="container">
-            <div class="info">
-                <div class="icon">
-                    <div class="icon_photo"><img src="./bench.svg"></div>
-                    <div class="icon_words">Место где сидел <br> Адлет</div>
-                </div>
-                <div class="icon">
-                    <div class="icon_photo"><img src="./bicycle.svg"></div>
-                    <div class="icon_words">Велосипед который украл <br> Адлет</div>
-                </div>
-                <div class="icon">
-                    <div class="icon_photo"><img src="./building.svg"></div>
-                    <div class="icon_words">Там где лежит украденный <br> Велосипед</div>
-                </div>
-                <div class="icon">
-                    <div class="icon_photo"><img src="./fountain.svg"></div>
-                    <div class="icon_words">Место где купался <br> Адлет</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="gallery">
-        <div class="container">
-            <div class="gallery_title">Адлета Квартиры</div>
-            <div class="gallery_photo">
-                <div class="photo_row"><img class="gallery_icon" src="./App1.jpg"><img class="gallery_icon" src="./App4.jpg"></div>
-                <div class="photo_row"><img class="gallery_icon" src="./App3.jpg"><img class="gallery_icon" src="./App2.jpg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="contact">
-        <div class="container container_contact">
-            <div class="contact_info">
-                <div class="contact_title">Хотите записаться к Адлету ?</div>
-                <div class="contact_text">Он занимается этим уже не первый год</div>
-            </div>
-            <form action="https://formspree.io/xaypkgrn" method="POST" class="form">
-                <div class="form_item">
-                    <label class="form_label" for="">
-                        <input type="text" placeholder="Ваше имя" name="name" required>
-                    </label>
-                    <label class="form_label" for="">
-                        <input type="tel" placeholder="Ваш телефон"  name="tel" required>
-                    </label>
-                </div>
-                <div class="form_item">
-                    <p class="form_text">
-                        *Мы никому не передаем ваши данные. <br>
-                        И не сохраняем ваш номер в базу.
-                    </p>
-                    <button class="btn"  type="submit" value="Send">
-                        Отправить
-                    </button>
-                </div>
-            </form>
-        </div>
-    </div>
 
     <div class="nav_banner">
         <div class="nav_menu">
-            <a class="navmob_item" href="#main"><div >Главное</div></a>
+            <a class="navmob_item" href="#main"><div>Главное</div></a>
+            <a class="navmob_item" href=""><div>О нас</div></a>
+            <a class="navmob_item" href="#zad"><div>Пакеты услуг</div></a>
             <a class="navmob_item" href=""><div>Контакты</div></a>
-            <a class="navmob_item" href="#zad"><div>Зад</div></a>
-            <a class="navmob_item" href=""><div>Жопа</div></a>
-            <a class="navmob_item" href=""><div>НеГлавное</div></a>
         </div>
     </div>
 
@@ -112,6 +65,35 @@
           <span class="hamburger-inner"></span>
         </span>
       </button>
+
+
+      <div class="about">
+        <div class="container_about">
+            <div class="about_header_upper">
+                О нас
+            </div>
+            <div class="about_header_downer">
+                О фирме
+            </div>
+            <div class="about_text">
+                Net Outsourcing Marketing - SMM агентство, сотрудники которой сертифицированы Facebook. Головной офис в Берлине, Германия.
+            </div>
+        <div class="certificates">
+            Наши сертификаты
+        </div>
+        <div class="logo_facebook">
+            <div class="logo_facebook1">
+                <img class="facebook_logo" src="./Digital_Marketing.png" alt="">
+            </div>
+
+            <div class="logo_facebook2">
+                <img class="facebook_logo" src="./Creative_Strategy_Professional.png" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+
+
 
       <div class="footer">
           <div class="container">
