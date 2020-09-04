@@ -286,7 +286,7 @@ input::placeholder {
 }
 
 .footer {
-    background-color: #2D343C;
+    background-color: rgb(50, 50, 50);
     color: #ffffff;
     text-align: center;
     margin-top: 10px;
@@ -315,4 +315,32 @@ input::placeholder {
 .logo_facebook {
     display: flex;
     margin-left: 35%;
+}
+
+.comanda {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.packet {
+    background-color: rgb(50, 50, 50);
+}
+
+.packet_header {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.NOM_contact {
+    background-color: #dbdbdb;
+}
+
+.NOM_contact_header {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 50px;
 }
