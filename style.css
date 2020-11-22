@@ -50,7 +50,6 @@ a {
 .container_header {
     display: flex;
     align-items: center;
-
 }
 
 .logo {
@@ -150,6 +149,8 @@ input::placeholder {
 .form_label {
     width: 49%;
 }
+
+@media screen and (max-width:1600px){
 
 @media screen and (max-width:1150px) {
     .container {
@@ -264,6 +265,7 @@ input::placeholder {
     width: 1400px;
     align-items: center;
     margin: 0 auto;
+    padding-bottom: 50px;
 
 }
 
@@ -370,7 +372,7 @@ input::placeholder {
     font-size: 50px;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding-top: 90px;
+    padding-top: 100px;
     padding-bottom: 90px;
 }
 
